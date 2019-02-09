@@ -94,7 +94,15 @@ console.log(isGreaterThan(3, 4));
  * Console.log your result.
 */
 
+function mustBeTrue(boo){
+  if (boo === true) return true;
+  else return false;
+}
 
+var truthTest = 5 > 4;
+var falseTest = 5 > 5;
+console.log(mustBeTrue(truthTest));
+console.log(mustBeTrue(falseTest));
 
 /*
  * #5
