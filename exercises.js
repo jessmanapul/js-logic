@@ -74,7 +74,13 @@ console.log(login('1234test'));
  * Console.log your result.
 */
 
+function isGreaterThan(first, second) {
+  if (first > second) return true;
+  else return false;
+}
 
+console.log(isGreaterThan(4, 3));
+console.log(isGreaterThan(3, 4));
 
 /*
  * #4
