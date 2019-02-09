@@ -140,6 +140,16 @@ console.log(bigBird('Hi'));
  * Console.log your result.
 */
 
+function isEqual(first, second) {
+  if (first === second) {
+    return "You look mahvelous!";
+  } else {
+    return "I don't know who you are anymore.";
+  }
+}
+
+console.log(isEqual('quack', 'quack'));
+console.log(isEqual('shut', 'up'));
 
 /*
  * #7
