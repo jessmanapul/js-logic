@@ -186,7 +186,13 @@ console.log(notEqual('Kanye', 'Kanye'));
  * Console.log your result.
 */ 
 
+function spareChange(money) {
+  if (money > 100) return true;
+  else return false;
+}
 
+console.log(spareChange(300));
+console.log(spareChange(100));
 
 /*
  * #9
