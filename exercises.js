@@ -164,6 +164,15 @@ console.log(isEqual('shut', 'up'));
  * Console.log your result.
 */
 
+function notEqual(first, second) {
+  if (first != second) {
+    return "Opposites do attract.";
+  } else {
+    return "Cause it's like you're my mirror.";
+  }
+}
+console.log(notEqual('Spongebob', 'Squarepants'));
+console.log(notEqual('Kanye', 'Kanye'));
 
 /*
  * #8
