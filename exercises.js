@@ -116,7 +116,16 @@ console.log(mustBeTrue(falseTest));
  * Console.log your result.
 */
 
+function bigBird(word){
+  if (word.length === 3) {
+    return 'Word to Big Bird!';
+  } else {
+    return "You don't belong on Sesame Street.";
+  }
+}
 
+console.log(bigBird('Hey'));
+console.log(bigBird('Hi'));
 
 /*
  * #6
