@@ -466,6 +466,26 @@ console.log(sumItUp(numArray));
  * Console.log both the east and west arrays.
 */ 
 
+var players = ['Lebron', 'Kobe', 'Kevin', 'Steph', 'Derrik', 'James'];
+var east = [];
+var west = [];
+
+function allStars(ballers) {
+
+  for (var i = 0; i < ballers.length; i++) {
+    if ((i%2) === 0) {
+      east.push(ballers[i]);
+    } else {
+      west.push(ballers[i]);
+    }
+  }
+
+}
+
+allStars(players);
+console.log(east);
+console.log(west);
+
 var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Sidney Deane", "World B Free"];
 /*
  * #19
