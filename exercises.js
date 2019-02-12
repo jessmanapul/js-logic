@@ -501,7 +501,17 @@ var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Si
 
   var subOftheDay = ["Teriyaki Chicken", "Spicy Italian", "Turkey", "BMT", "Black Forest Ham", "Meatball Marinara", "Veggie"];
 
+  function subways(special) {
+    for (var i = 0; i < special.length; i++) {
+      if ((i%2) != 0) {
+        //special.splice(i, 1, "Classic Tuna");
+        special[i] = 'Classic Tuna';
+      }
+    }
+    return special;
+  }
 
+  console.log(subways(subOftheDay));
 /*
 Final Boss
  * #20
