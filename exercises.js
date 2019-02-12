@@ -229,7 +229,13 @@ console.log(dirty30(10, 10, 9));
  * Console.log your result.
 */ 
 
+function evenStevens(num) {
+  if ((num%2) === 0) return true;
+  else return false;
+}
 
+console.log(evenStevens(14));
+console.log(evenStevens(13));
 
 
 /*
