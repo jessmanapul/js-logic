@@ -376,7 +376,7 @@ function dailySpecials (special) {
   }
 
   return meal;
-  
+
 }
 
 console.log(dailySpecials('Thursday'));
@@ -409,12 +409,15 @@ for (var i = 0; i<toyotaModels.length; i++){
  * "Player: 5"
 */
 
+for (var i = 1; i < 6; i++) {
+  console.log("Player: ", i);
+}
 
 /* 
  * #16
  * Create a for loop that will iterate and console.log each item in the array below:
 */
-  var myFavFoods = ["lemon bar", "carrot cake", "nachos", "bacon cheeseburger", "ramen", "sweet potato fries", "chimichanga"];
+
 
 
 /*
