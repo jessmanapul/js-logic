@@ -525,7 +525,20 @@ Final Boss
 */
 
 var phrase = "An apple a day keeps Alice feeling awesome!";
- 
+
+function removeLetter(str) {
+  var characters = [];
+
+  for (var i = 0; i < str.length; i++) {
+    if ((str.charAt[i] !== 'A') && (str.charAt[i] !== 'a')) {
+      characters.push(str.charAt(i));
+    }
+  }
+
+  return characters;
+}
+
+console.log(removeLetter(phrase));
   
   
 
